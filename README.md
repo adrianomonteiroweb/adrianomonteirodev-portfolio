@@ -44,3 +44,7 @@ Repositório de um portfólio em React.js, Node.js e TypeScript.
   ```bash
   npm run client:start
   ```
+
+### DESIGN
+
+- Prototype in [Figma](https://www.figma.com/file/BXf5swV5EKuSzAL0hWXTH7/Adriano-Monteiro-Dev?node-id=0%3A1)
