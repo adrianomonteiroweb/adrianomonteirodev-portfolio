@@ -8,6 +8,49 @@
 }
 
 @media (max-width: 1280px) {
+  .profile-screen-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
+  .profile-div .about-me-div {
+    align-items: center;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    width: 200px;
+  }
+
+  .about-me-div .welcome-text {
+    color: #1d3971;
+    font-family: Antic;
+    font-size: 50px;
+    margin-left: 10px;
+  }
+
+  .profile-image-div .profile-image {
+    border-radius: 130px 0 0 130px;
+    height: 350px;
+    position: relative;
+  }
+
+  .profile-screen-div .text-div {
+    padding: 10px;
+    width: 600px;
+  }
+
+  .text-div .about-me-text {
+    color: #525050;
+    font-family: Antic;
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 768px) {
