@@ -39,7 +39,33 @@
 
 main {
   align-items: center;
+  border: 1px solid green;
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+main span {
+  color: red;
+  margin: 10px;
+}
+
+@media (max-width: 1444px) {
+  main span {
+    font-size: 40px;
+  }
+
+  .menu-button-div {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1024px) {
+  main span {
+    font-size: 40px;
+  }
+
+  .menu-button-div {
+    visibility: hidden;
+  }
 }
