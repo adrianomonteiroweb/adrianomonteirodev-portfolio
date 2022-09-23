@@ -7,6 +7,8 @@ const REACT_SERVER =
 
 describe('E2E tests on the profile screen.', () => {
   it('The following elements must exist.', () => {
+    cy.viewport(390, 844);
+
     cy.visit(`${REACT_SERVER}`);
 
     cy.get('[data-cy="menu"]');
