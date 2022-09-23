@@ -1,6 +1,6 @@
 # ADRIANO MONTEIRO DEV PORTFÓLIO
 
-Repositório de um portfólio em React.js, Node.js e TypeScript.
+Repositório de um portfólio em React.js, Node.js e TypeScript. Com testes no front-end usando Cypress E2E, tradução multi idiomas e muito mais.
 
 ### STRUCTURE AND TECHNOLOGIES
 
@@ -23,6 +23,9 @@ Repositório de um portfólio em React.js, Node.js e TypeScript.
 
   - react;
   - react-dom;
+  - react-router-dom;
+  - i18next;
+  - react-i18next;
   - typescript.
 
 - Client Dev Dependencies:
