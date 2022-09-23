@@ -43,3 +43,9 @@ main {
   flex-direction: column;
   padding: 20px;
 }
+
+main span {
+  color: red;
+  font-size: 20px;
+  margin: 10px;
+}
