@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Antic;
+  src: local(Antic), url(../../data/fonts/Antic-Regular.ttf);
+}
+
+.profile-div {
+  display: flex;
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 390px) {
+  .profile-div .about-me-div {
+    align-items: center;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    width: 200px;
+  }
+
+  .about-me-div .welcome-text {
+    color: #1d3971;
+    font-family: Antic;
+    font-size: 32px;
+  }
+
+  .profile-image-div .profile-image {
+    border-radius: 130px 0 0 130px;
+    height: 350px;
+    right: -160px;
+    position: absolute;
+  }
+
+  .profile-screen-div .text-div {
+    padding: 10px;
+  }
+
+  .text-div .about-me-text {
+    color: #525050;
+    font-family: Antic;
+    font-size: 22px;
+  }
+}

@@ -1,11 +1,19 @@
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-function App() {
+import './App.css';
+import MenuButtonComponent from './components/menu-button/MenuButtonComponent';
+
+import ProfileScreen from './pages/profile-screen/ProfileScreen';
+
+export default function App() {
   return (
-    <div className='App'>
-      <h1>Adriano</h1>
-    </div>
+    <main>
+      <MenuButtonComponent />
+      <Router>
+        <Routes>
+          <Route path='/' element={<ProfileScreen />} />
+        </Routes>
+      </Router>
+    </main>
   );
 }
-
-export default App;
