@@ -23,7 +23,6 @@
   .profile-div .about-me-div {
     align-items: center;
     display: flex;
-    height: 300px;
     justify-content: center;
     width: 200px;
   }
@@ -37,19 +36,19 @@
 
   .profile-image-div .profile-image {
     border-radius: 130px 0 0 130px;
-    height: 350px;
+    height: 300px;
     position: relative;
   }
 
   .profile-screen-div .text-div {
-    padding: 10px;
-    width: 600px;
+    padding: 5px;
+    width: 700px;
   }
 
   .text-div .about-me-text {
     color: #525050;
     font-family: Antic;
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 

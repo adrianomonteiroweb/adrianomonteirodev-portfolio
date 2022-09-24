@@ -39,7 +39,6 @@
 
 main {
   align-items: center;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -47,12 +46,12 @@ main {
 
 main span {
   color: red;
-  margin: 10px;
+  margin: 5px;
 }
 
 @media (max-width: 1444px) {
   main span {
-    font-size: 40px;
+    font-size: 25px;
   }
 
   .menu-button-div {
