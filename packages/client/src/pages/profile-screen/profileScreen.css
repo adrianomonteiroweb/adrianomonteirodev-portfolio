@@ -23,15 +23,29 @@
   .profile-div .about-me-div {
     align-items: center;
     display: flex;
+    flex-direction: column;
+    height: 300px;
     justify-content: center;
-    width: 200px;
+    width: 50%;
   }
 
   .about-me-div .welcome-text {
     color: #1d3971;
     font-family: Antic;
-    font-size: 50px;
+    font-size: 30px;
+    left: -40px;
     margin-left: 10px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+  }
+
+  .about-me-div p {
+    color: rgb(59, 58, 58);
+    font-size: 25px;
+    left: 40px;
+    position: relative;
+    width: 350px;
   }
 
   .profile-image-div .profile-image {
@@ -68,62 +82,86 @@
   .profile-div .about-me-div {
     align-items: center;
     display: flex;
-    height: 400px;
+    flex-direction: column;
+    height: 300px;
     justify-content: center;
-    width: 200px;
+    width: 50%;
   }
 
   .about-me-div .welcome-text {
     color: #1d3971;
     font-family: Antic;
-    font-size: 50px;
+    font-size: 30px;
+    left: -40px;
     margin-left: 10px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+  }
+
+  .about-me-div p {
+    color: rgb(59, 58, 58);
+    font-size: 25px;
+    left: 40px;
+    position: relative;
+    width: 350px;
   }
 
   .profile-image-div .profile-image {
     border-radius: 130px 0 0 130px;
-    height: 350px;
+    height: 300px;
     position: relative;
   }
 
   .profile-screen-div .text-div {
-    padding: 10px;
-    width: 600px;
+    padding: 5px;
+    width: 700px;
   }
 
   .text-div .about-me-text {
     color: #525050;
     font-family: Antic;
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 768px) {
-}
-
-@media (max-width: 424px) {
   .profile-div .about-me-div {
     align-items: center;
     display: flex;
-    height: 400px;
+    flex-direction: column;
+    height: 300px;
     justify-content: center;
-    width: 200px;
+    width: 90%;
   }
 
   .about-me-div .welcome-text {
     color: #1d3971;
     font-family: Antic;
     font-size: 32px;
+    position: relative;
+    left: -70px;
+    width: 250px;
+  }
+
+  .about-me-div p {
+    color: rgb(59, 58, 58);
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+    left: -40px;
+    width: 300px;
   }
 
   .profile-image-div .profile-image {
     border-radius: 130px 0 0 130px;
-    height: 350px;
-    right: -160px;
+    height: 300px;
+    right: -135px;
     position: absolute;
   }
 
   .profile-screen-div .text-div {
+    width: 100%;
     padding: 10px;
   }
 
@@ -131,5 +169,60 @@
     color: #525050;
     font-family: Antic;
     font-size: 22px;
+    width: 400px;
+    top: 30px;
+    left: 40px;
+    position: relative;
+  }
+}
+
+@media (max-width: 425px) {
+  .profile-div .about-me-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .about-me-div .welcome-text {
+    color: #1d3971;
+    font-family: Antic;
+    font-size: 32px;
+    position: relative;
+    right: 30px;
+    width: 200px;
+  }
+
+  .about-me-div p {
+    color: rgb(59, 58, 58);
+    font-size: 22px;
+    position: relative;
+    top: -30px;
+    right: 40px;
+    width: 250px;
+  }
+
+  .profile-image-div .profile-image {
+    border-radius: 130px 0 0 130px;
+    height: 300px;
+    right: -250px;
+    position: absolute;
+  }
+
+  .profile-screen-div .text-div {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .text-div .about-me-text {
+    color: #525050;
+    font-family: Antic;
+    font-size: 22px;
+    width: 350px;
+    top: 30px;
+    left: 40px;
+    position: relative;
   }
 }

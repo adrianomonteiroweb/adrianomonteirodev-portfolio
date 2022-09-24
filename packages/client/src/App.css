@@ -41,6 +41,7 @@ main {
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 20px;
 }
 
@@ -66,5 +67,25 @@ main span {
 
   .menu-button-div {
     visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 425px;
+  }
+
+  main span {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    width: 425px;
+  }
+
+  main span {
+    font-size: 40px;
   }
 }
