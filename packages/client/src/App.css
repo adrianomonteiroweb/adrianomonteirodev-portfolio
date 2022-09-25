@@ -50,9 +50,20 @@ main span {
   margin: 5px;
 }
 
-@media (max-width: 1444px) {
+@media (max-width: 1440px) {
+  body {
+    background-color: #1a1a1a;
+  }
+
   main span {
     font-size: 25px;
+  }
+
+  main .content {
+    background-color: #e9ebf2;
+    border-radius: 20px;
+    height: 484px;
+    width: 1000px;
   }
 
   .menu-button-div {
