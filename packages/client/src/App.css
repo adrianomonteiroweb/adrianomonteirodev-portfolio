@@ -51,8 +51,8 @@ main span {
 }
 
 @media (max-width: 1440px) {
-  body {
-    background-color: #1a1a1a;
+  main {
+    min-height: 592px;
   }
 
   main span {
@@ -60,10 +60,19 @@ main span {
   }
 
   main .content {
-    background-color: #e9ebf2;
     border-radius: 20px;
-    height: 484px;
+    height: 550px;
     width: 1000px;
+  }
+
+  .content .theme-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+    position: relative;
   }
 }
 
