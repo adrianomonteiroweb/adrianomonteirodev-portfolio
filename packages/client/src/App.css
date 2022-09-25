@@ -70,44 +70,86 @@ main span {
     border: 0;
     font-size: 14px;
     margin-top: 10px;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 48%;
+    margin-right: 52%;
     position: relative;
   }
 }
 
 @media (max-width: 1024px) {
-  main span {
-    font-size: 20px;
+  main {
+    min-height: 592px;
   }
 
-  .menu-button-div {
-    margin: 5px;
-    visibility: visible;
+  main span {
+    font-size: 25px;
+  }
+
+  main .content {
+    border-radius: 20px;
+    height: 550px;
+    width: 800px;
+  }
+
+  .content .theme-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 48%;
+    margin-right: 52%;
+    position: relative;
   }
 }
 
 @media (max-width: 768px) {
   main {
-    width: 425px;
+    min-height: 592px;
   }
 
   main span {
-    font-size: 20px;
+    font-size: 25px;
   }
 
-  .menu-button-div {
-    margin: 5px;
-    visibility: visible;
+  main .content {
+    border-radius: 20px;
+    height: 550px;
+    width: 660px;
+  }
+
+  .content .theme-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 46%;
+    margin-right: 54%;
+    position: relative;
   }
 }
 
 @media (max-width: 425px) {
   main {
-    width: 425px;
+    min-height: 592px;
   }
 
   main span {
-    font-size: 40px;
+    font-size: 25px;
+  }
+
+  main .content {
+    border-radius: 20px;
+    height: 800px;
+    width: 425px;
+  }
+
+  .content .theme-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 46%;
+    margin-right: 54%;
+    position: relative;
   }
 }

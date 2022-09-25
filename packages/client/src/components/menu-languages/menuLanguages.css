@@ -4,6 +4,7 @@
   cursor: pointer;
   margin: 2px;
   position: relative;
+  top: -10px;
 }
 
 .menu-languages-button .menu-languages-flag {
