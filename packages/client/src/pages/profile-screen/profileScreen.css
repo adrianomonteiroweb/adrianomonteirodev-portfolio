@@ -96,27 +96,26 @@
   }
 
   .about-me-div .welcome-text {
-    color: #1d3971;
+    color: #8151ff;
     font-family: Antic;
-    font-size: 30px;
-    left: -40px;
-    margin-left: 10px;
-    width: 200px;
+    font-size: 26px;
+    left: -20px;
+    width: 150px;
     position: relative;
-    top: 30px;
+    top: -35px;
   }
 
   .about-me-div p {
-    color: rgb(59, 58, 58);
-    font-size: 25px;
-    left: 40px;
+    font-size: 22px;
+    left: 55px;
     position: relative;
-    width: 350px;
+    width: 300px;
+    top: -70px;
   }
 
   .profile-image-div .profile-image {
-    border-radius: 130px 0 0 130px;
-    height: 300px;
+    border-radius: 100px 0 0 100px;
+    height: 190px;
     position: relative;
   }
 
@@ -125,111 +124,150 @@
     width: 700px;
   }
 
+  .text-div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
   .text-div .about-me-text {
-    color: #525050;
+    color: #959191;
     font-family: Antic;
-    font-size: 30px;
+    font-size: 24px;
+    width: 500px;
+    position: absolute;
   }
 }
 
 @media (max-width: 768px) {
+  .profile-screen-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
   .profile-div .about-me-div {
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 300px;
     justify-content: center;
-    width: 90%;
+    width: 50%;
   }
 
   .about-me-div .welcome-text {
-    color: #1d3971;
+    color: #8151ff;
     font-family: Antic;
-    font-size: 32px;
+    font-size: 26px;
+    left: -20px;
+    width: 150px;
     position: relative;
-    left: -70px;
-    width: 250px;
+    top: -35px;
   }
 
   .about-me-div p {
-    color: rgb(59, 58, 58);
-    font-size: 25px;
+    font-size: 22px;
+    left: 55px;
     position: relative;
-    top: 5px;
-    left: -40px;
     width: 300px;
+    top: -70px;
   }
 
   .profile-image-div .profile-image {
-    border-radius: 130px 0 0 130px;
-    height: 300px;
-    right: -135px;
-    position: absolute;
+    border-radius: 100px 0 0 100px;
+    height: 190px;
+    position: relative;
   }
 
   .profile-screen-div .text-div {
-    width: 100%;
-    padding: 10px;
+    padding: 5px;
+    width: 700px;
+  }
+
+  .text-div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
   .text-div .about-me-text {
-    color: #525050;
+    color: #959191;
     font-family: Antic;
-    font-size: 22px;
-    width: 400px;
-    top: 30px;
-    left: 40px;
-    position: relative;
+    font-size: 24px;
+    width: 500px;
+    position: absolute;
   }
 }
 
 @media (max-width: 425px) {
+  .profile-screen-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
   .profile-div .about-me-div {
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 300px;
     justify-content: center;
-    width: 90%;
+    width: 50%;
   }
 
   .about-me-div .welcome-text {
-    color: #1d3971;
+    color: #8151ff;
     font-family: Antic;
-    font-size: 32px;
+    font-size: 26px;
+    left: -20px;
+    width: 150px;
     position: relative;
-    right: 30px;
-    width: 200px;
+    top: -35px;
   }
 
   .about-me-div p {
-    color: rgb(59, 58, 58);
     font-size: 22px;
+    left: 55px;
     position: relative;
-    top: -30px;
-    right: 40px;
-    width: 250px;
+    width: 300px;
+    top: -70px;
   }
 
   .profile-image-div .profile-image {
-    border-radius: 130px 0 0 130px;
-    height: 300px;
-    right: -250px;
-    position: absolute;
+    border-radius: 100px 0 0 100px;
+    height: 220px;
+    position: relative;
+    right: -90px;
   }
 
   .profile-screen-div .text-div {
-    width: 100%;
-    padding: 10px;
+    padding: 5px;
+    width: 700px;
+  }
+
+  .text-div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
   .text-div .about-me-text {
-    color: #525050;
+    color: #959191;
     font-family: Antic;
-    font-size: 22px;
+    font-size: 24px;
     width: 350px;
-    top: 30px;
-    left: 40px;
-    position: relative;
+    position: absolute;
   }
 }

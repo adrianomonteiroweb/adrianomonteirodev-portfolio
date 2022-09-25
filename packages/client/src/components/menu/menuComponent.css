@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   margin: 20px;
+  position: relative;
+  top: -10px;
 }
 
 .menu-div .link {
