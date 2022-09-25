@@ -32,26 +32,25 @@
   .about-me-div .welcome-text {
     color: #8151ff;
     font-family: Antic;
-    font-size: 32px;
-    margin-left: 10px;
-    width: 200px;
+    font-size: 26px;
+    left: -20px;
+    width: 150px;
     position: relative;
-    top: -20px;
+    top: -35px;
   }
 
   .about-me-div p {
     color: #1a1a1a;
-    font-size: 24px;
-    left: 80px;
+    font-size: 22px;
+    left: 55px;
     position: relative;
-    width: 350px;
-    top: -60px;
+    width: 300px;
+    top: -70px;
   }
 
   .profile-image-div .profile-image {
     border-radius: 100px 0 0 100px;
     height: 190px;
-    width: 150px;
     position: relative;
   }
 
@@ -69,8 +68,9 @@
   .text-div .about-me-text {
     color: #959191;
     font-family: Antic;
-    font-size: 16px;
-    width: 300px;
+    font-size: 24px;
+    width: 500px;
+    position: absolute;
   }
 }
 

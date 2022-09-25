@@ -1,0 +1,19 @@
+.menu-div {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.menu-div .link {
+  color: #959191;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.menu-div .link:hover {
+  color: black;
+}
+
+.link.active {
+  color: black;
+}
