@@ -13,7 +13,3 @@
 .menu-div .link:hover {
   color: black;
 }
-
-.link.active {
-  color: black;
-}
