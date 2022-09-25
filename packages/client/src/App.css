@@ -62,11 +62,12 @@ main span {
 
 @media (max-width: 1024px) {
   main span {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .menu-button-div {
-    visibility: hidden;
+    margin: 5px;
+    visibility: visible;
   }
 }
 
@@ -76,7 +77,12 @@ main span {
   }
 
   main span {
-    font-size: 40px;
+    font-size: 20px;
+  }
+
+  .menu-button-div {
+    margin: 5px;
+    visibility: visible;
   }
 }
 

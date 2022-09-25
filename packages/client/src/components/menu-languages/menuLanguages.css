@@ -1,9 +1,13 @@
 .menu-languages .menu-languages-button {
   background-color: transparent;
-  border: 0;
+  border: 0px;
+  cursor: pointer;
+  margin: 2px;
+  position: relative;
 }
 
 .menu-languages-button .menu-languages-flag {
+  border: 1px solid transparent;
   width: 38px;
 }
 
