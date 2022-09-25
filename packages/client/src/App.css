@@ -39,33 +39,66 @@
 
 main {
   align-items: center;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 20px;
 }
 
 main span {
   color: red;
-  margin: 10px;
+  margin: 5px;
 }
 
-@media (max-width: 1444px) {
-  main span {
-    font-size: 40px;
+@media (max-width: 1440px) {
+  body {
+    background-color: #1a1a1a;
   }
 
-  .menu-button-div {
-    visibility: hidden;
+  main span {
+    font-size: 25px;
+  }
+
+  main .content {
+    background-color: #e9ebf2;
+    border-radius: 20px;
+    height: 484px;
+    width: 1000px;
   }
 }
 
 @media (max-width: 1024px) {
   main span {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .menu-button-div {
-    visibility: hidden;
+    margin: 5px;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 425px;
+  }
+
+  main span {
+    font-size: 20px;
+  }
+
+  .menu-button-div {
+    margin: 5px;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    width: 425px;
+  }
+
+  main span {
+    font-size: 40px;
   }
 }

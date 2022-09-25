@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 
-import MenuButtonComponent from './components/menu-button/MenuButtonComponent';
+import MenuComponent from './components/menu/MenuComponent';
 import MenuLanguages from './components/menu-languages/MenuLanguages';
 
 import ProfileScreen from './pages/profile-screen/ProfileScreen';
@@ -10,15 +10,17 @@ import ProfileScreen from './pages/profile-screen/ProfileScreen';
 export default function App() {
   return (
     <main>
-      <MenuLanguages />
-      <MenuButtonComponent />
       {process.env.REACT_APP_DEV === 'true' && (
         <span>Em desenvoldimento...</span>
       )}
       <Router>
-        <Routes>
-          <Route path='/' element={<ProfileScreen />} />
-        </Routes>
+        <MenuLanguages />
+        <section className='content'>
+          <MenuComponent />
+          <Routes>
+            <Route path='/' element={<ProfileScreen />} />
+          </Routes>
+        </section>
       </Router>
     </main>
   );

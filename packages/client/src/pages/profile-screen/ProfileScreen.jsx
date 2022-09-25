@@ -11,8 +11,9 @@ export default function ProfileScreen() {
       <div className='profile-div'>
         <div className='about-me-div'>
           <h2 data-cy='welcome-text' className='welcome-text'>
-            {t('Hi, there. I`m Adriano.')}
+            {t('Hey there. I`m Adriano Monteiro.')}
           </h2>
+          <p>{t('Junior Full Stack Software Developer.')}</p>
         </div>
         <div className='profile-image-div'>
           <img
