@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 import './menuComponent.css';
@@ -9,7 +10,7 @@ function changeActive(link: any): void {
 }
 
 export default function MenuButtonComponent() {
-  console.log(window.location.href);
+  const { t } = useTranslation();
 
   return (
     <div data-cy='menu' className='menu-div'>
@@ -18,28 +19,28 @@ export default function MenuButtonComponent() {
         to='/'
         onClick={({ target }) => changeActive(target)}
       >
-        Home
+        {t('Home')}
       </Link>
       <Link
         className='link'
         to='/about'
         onClick={({ target }) => changeActive(target)}
       >
-        About
+        {t('About')}
       </Link>
       <Link
         className='link'
         to='/projects'
         onClick={({ target }) => changeActive(target)}
       >
-        Projects
+        {t('Projects')}
       </Link>
       <Link
         className='link'
         to='/contacts'
         onClick={({ target }) => changeActive(target)}
       >
-        Contacts
+        {t('Contacts')}
       </Link>
     </div>
   );
