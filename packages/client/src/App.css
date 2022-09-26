@@ -76,9 +76,9 @@ main span {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   main {
-    min-height: 592px;
+    min-height: 750px;
   }
 
   main span {
@@ -87,8 +87,8 @@ main span {
 
   main .content {
     border-radius: 20px;
-    height: 550px;
-    width: 800px;
+    height: 600px;
+    width: 1000px;
   }
 
   .content .theme-button {
@@ -102,9 +102,9 @@ main span {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   main {
-    min-height: 592px;
+    height: 1100px;
   }
 
   main span {
@@ -113,8 +113,8 @@ main span {
 
   main .content {
     border-radius: 20px;
-    height: 550px;
-    width: 660px;
+    height: 800px;
+    width: 800px;
   }
 
   .content .theme-button {
@@ -128,9 +128,9 @@ main span {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   main {
-    min-height: 592px;
+    height: 900px;
   }
 
   main span {
@@ -140,7 +140,85 @@ main span {
   main .content {
     border-radius: 20px;
     height: 800px;
-    width: 425px;
+    width: 750px;
+  }
+
+  .content .theme-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 46%;
+    margin-right: 54%;
+    position: relative;
+  }
+}
+
+@media (max-width: 414px) {
+  main {
+    height: 700px;
+  }
+
+  main span {
+    font-size: 25px;
+  }
+
+  main .content {
+    border-radius: 20px;
+    height: 800px;
+    width: 414px;
+  }
+
+  .content .theme-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 46%;
+    margin-right: 54%;
+    position: relative;
+  }
+}
+
+@media (max-width: 390px) {
+  main {
+    height: 700px;
+  }
+
+  main span {
+    font-size: 25px;
+  }
+
+  main .content {
+    border-radius: 20px;
+    height: 600px;
+    width: 390px;
+  }
+
+  .content .theme-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 46%;
+    margin-right: 54%;
+    position: relative;
+  }
+}
+
+@media (max-width: 360px) {
+  main {
+    height: 700px;
+  }
+
+  main span {
+    font-size: 25px;
+  }
+
+  main .content {
+    border-radius: 20px;
+    height: 700px;
+    width: 358px;
   }
 
   .content .theme-button {
