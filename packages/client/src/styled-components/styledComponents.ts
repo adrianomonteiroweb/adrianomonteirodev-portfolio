@@ -9,7 +9,8 @@ export const Content = styled.div`
   background-color: ${(props) =>
     props.theme.body === '#1a1a1a' ? '#e9ebf2' : '#1a1a1a'};
   .link.active {
-    color: ${(props) => props.theme.fontColor};
+    color: ${(props) =>
+      props.theme.fontColor === '#000000' ? '#ffffff' : '#000000'};
   }
 
   .about-me-div p {
@@ -17,6 +18,7 @@ export const Content = styled.div`
   }
 
   .theme-button {
-    color: ${(props) => props.theme.fontColor};
+    color: ${(props) =>
+      props.theme.fontColor === '#000000' ? '#ffffff' : '#000000'};
   }
 `;

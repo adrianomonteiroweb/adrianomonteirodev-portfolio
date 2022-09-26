@@ -52,7 +52,7 @@ main span {
 
 @media (max-width: 1440px) {
   main {
-    min-height: 592px;
+    height: 600px;
   }
 
   main span {
@@ -61,24 +61,27 @@ main span {
 
   main .content {
     border-radius: 20px;
-    height: 550px;
-    width: 1000px;
+    height: 400px;
+    width: 800px;
+    position: relative;
+    top: 20px;
   }
 
   .content .theme-button {
     background-color: transparent;
     border: 0;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 10px;
-    margin-left: 48%;
-    margin-right: 52%;
+    margin-left: 46%;
+    margin-right: 54%;
     position: relative;
+    top: -120px;
   }
 }
 
 @media (max-width: 1280px) {
   main {
-    min-height: 750px;
+    height: 750px;
   }
 
   main span {
@@ -87,18 +90,21 @@ main span {
 
   main .content {
     border-radius: 20px;
-    height: 600px;
-    width: 1000px;
+    height: 500px;
+    width: 800px;
+    position: relative;
+    top: 10px;
   }
 
   .content .theme-button {
     background-color: transparent;
     border: 0;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 10px;
-    margin-left: 48%;
-    margin-right: 52%;
+    margin-left: 46%;
+    margin-right: 54%;
     position: relative;
+    top: -130px;
   }
 }
 
@@ -113,18 +119,21 @@ main span {
 
   main .content {
     border-radius: 20px;
-    height: 800px;
+    height: 700px;
     width: 800px;
+    position: relative;
+    top: 40px;
   }
 
   .content .theme-button {
     background-color: transparent;
     border: 0;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 10px;
     margin-left: 46%;
     margin-right: 54%;
     position: relative;
+    top: -130px;
   }
 }
 
@@ -139,18 +148,21 @@ main span {
 
   main .content {
     border-radius: 20px;
-    height: 800px;
+    height: 700px;
     width: 750px;
+    position: relative;
+    top: 40px;
   }
 
   .content .theme-button {
     background-color: transparent;
     border: 0;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 10px;
     margin-left: 46%;
     margin-right: 54%;
     position: relative;
+    top: -130px;
   }
 }
 
@@ -165,18 +177,20 @@ main span {
 
   main .content {
     border-radius: 20px;
-    height: 800px;
+    height: 700px;
     width: 414px;
+    position: relative;
+    top: 90px;
   }
 
   .content .theme-button {
     background-color: transparent;
     border: 0;
     font-size: 14px;
-    margin-top: 10px;
     margin-left: 46%;
     margin-right: 54%;
     position: relative;
+    top: -110px;
   }
 }
 
@@ -191,18 +205,20 @@ main span {
 
   main .content {
     border-radius: 20px;
-    height: 600px;
+    height: 700px;
     width: 390px;
+    position: relative;
+    top: 90px;
   }
 
   .content .theme-button {
     background-color: transparent;
     border: 0;
     font-size: 14px;
-    margin-top: 10px;
     margin-left: 46%;
     margin-right: 54%;
     position: relative;
+    top: -110px;
   }
 }
 
@@ -219,15 +235,17 @@ main span {
     border-radius: 20px;
     height: 700px;
     width: 358px;
+    position: relative;
+    top: 90px;
   }
 
   .content .theme-button {
     background-color: transparent;
     border: 0;
     font-size: 14px;
-    margin-top: 10px;
     margin-left: 46%;
     margin-right: 54%;
     position: relative;
+    top: -110px;
   }
 }
