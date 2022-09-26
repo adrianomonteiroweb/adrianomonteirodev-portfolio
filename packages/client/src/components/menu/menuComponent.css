@@ -15,3 +15,33 @@
 .menu-div .link:hover {
   color: black;
 }
+
+@media (max-width: 1280px) {
+  .menu-div .link {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 834px) {
+  .menu-div .link {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-div .link {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 414px) {
+  .menu-div .link {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 360px) {
+  .menu-div .link {
+    font-size: 20px;
+  }
+}
