@@ -36,7 +36,7 @@
     left: -20px;
     width: 150px;
     position: relative;
-    top: -35px;
+    top: -130px;
   }
 
   .about-me-div p {
@@ -44,13 +44,14 @@
     left: 55px;
     position: relative;
     width: 300px;
-    top: -70px;
+    top: -170px;
   }
 
   .profile-image-div .profile-image {
     border-radius: 100px 0 0 100px;
     height: 190px;
     position: relative;
+    top: -100px;
   }
 
   .profile-screen-div .text-div {
@@ -69,7 +70,8 @@
     font-family: Antic;
     font-size: 24px;
     width: 500px;
-    position: absolute;
+    position: relative;
+    top: -220px;
   }
 }
 
@@ -102,7 +104,7 @@
     left: -20px;
     width: 150px;
     position: relative;
-    top: -35px;
+    top: -80px;
   }
 
   .about-me-div p {
@@ -110,13 +112,14 @@
     left: 55px;
     position: relative;
     width: 300px;
-    top: -70px;
+    top: -120px;
   }
 
   .profile-image-div .profile-image {
     border-radius: 100px 0 0 100px;
     height: 190px;
     position: relative;
+    top: -50px;
   }
 
   .profile-screen-div .text-div {
@@ -135,7 +138,8 @@
     font-family: Antic;
     font-size: 24px;
     width: 500px;
-    position: absolute;
+    position: relative;
+    top: -150px;
   }
 }
 
@@ -247,6 +251,7 @@
 
   .profile-image-div .profile-image {
     border-radius: 100px 0 0 100px;
+    filter: drop-shadow(8px 8px 10px gray);
     height: 250px;
     position: relative;
   }
@@ -380,6 +385,7 @@
 
   .profile-image-div .profile-image {
     border-radius: 100px 0 0 100px;
+    filter: drop-shadow(10px 10px 10px gray);
     height: 240px;
     position: relative;
     right: -100px;
