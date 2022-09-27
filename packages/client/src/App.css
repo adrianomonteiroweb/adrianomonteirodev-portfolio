@@ -48,6 +48,8 @@ main {
 main span {
   color: red;
   margin: 5px;
+  font-size: 8px;
+  position: relative;
 }
 
 @media (max-width: 1440px) {
@@ -56,7 +58,8 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -84px;
   }
 
   main .content {
@@ -85,7 +88,8 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -105px;
   }
 
   main .content {
@@ -114,7 +118,8 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -105px;
   }
 
   main .content {
@@ -143,7 +148,8 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -75px;
   }
 
   main .content {
@@ -172,7 +178,8 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -15px;
   }
 
   main .content {
@@ -200,7 +207,7 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   main .content {
@@ -228,7 +235,8 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -20px;
   }
 
   main .content {

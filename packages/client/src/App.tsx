@@ -26,9 +26,7 @@ export default function App() {
       <GlobalStyles />
       <Container>
         <main>
-          {process.env.REACT_APP_DEV === 'true' && (
-            <span>Em desenvoldimento...</span>
-          )}
+          {<span>Em desenvoldimento...</span>}
           <Router>
             <MenuLanguages />
             <Content className='content'>

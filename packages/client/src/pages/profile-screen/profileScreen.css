@@ -339,7 +339,8 @@
     font-family: Antic;
     font-size: 24px;
     width: 350px;
-    position: absolute;
+    position: relative;
+    top: -100px;
   }
 }
 
@@ -457,6 +458,7 @@
     height: 300px;
     position: relative;
     right: -80px;
+    top: -50px;
   }
 
   .profile-screen-div .text-div {
@@ -476,5 +478,6 @@
     font-size: 24px;
     width: 300px;
     position: relative;
+    top: -80px;
   }
 }
