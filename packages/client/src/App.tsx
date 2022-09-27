@@ -12,6 +12,7 @@ import { darkTheme, lightTheme } from './styled-components/themes';
 import { Container, Content } from './styled-components/styledComponents';
 import { GlobalStyles } from './styled-components/GlobalStyles';
 import { useTranslation } from 'react-i18next';
+import { lightDarkMode } from './data/images';
 
 export default function App() {
   const { t } = useTranslation();
@@ -32,7 +33,12 @@ export default function App() {
             <Content className='content'>
               {
                 <button className='theme-button' onClick={() => changeTheme()}>
-                  {t(`${theme} Theme`)}
+                  <img
+                    className='settings-icon-mode'
+                    src={lightDarkMode}
+                    alt={t('Light & Dark Mode')}
+                  />
+                  {t('Light & Dark Mode')}
                 </button>
               }
               <MenuComponent />

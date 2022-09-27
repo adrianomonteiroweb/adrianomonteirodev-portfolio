@@ -73,12 +73,19 @@ main span {
   .content .theme-button {
     background-color: transparent;
     border: 0;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
-    margin-left: 46%;
-    margin-right: 54%;
+    margin-left: 38%;
     position: relative;
+    width: 200px;
     top: -120px;
+  }
+
+  .theme-button .settings-icon-mode {
+    width: 20px;
+    right: 5px;
+    position: relative;
+    top: 5px;
   }
 }
 
@@ -105,8 +112,7 @@ main span {
     border: 0;
     font-size: 18px;
     margin-top: 10px;
-    margin-left: 46%;
-    margin-right: 54%;
+    margin-left: 38%;
     position: relative;
     top: -130px;
   }
@@ -135,8 +141,6 @@ main span {
     border: 0;
     font-size: 18px;
     margin-top: 10px;
-    margin-left: 46%;
-    margin-right: 54%;
     position: relative;
     top: -130px;
   }
@@ -165,8 +169,6 @@ main span {
     border: 0;
     font-size: 18px;
     margin-top: 10px;
-    margin-left: 46%;
-    margin-right: 54%;
     position: relative;
     top: -130px;
   }
@@ -194,8 +196,7 @@ main span {
     background-color: transparent;
     border: 0;
     font-size: 14px;
-    margin-left: 46%;
-    margin-right: 54%;
+    right: 40px;
     position: relative;
     top: -110px;
   }
@@ -222,8 +223,6 @@ main span {
     background-color: transparent;
     border: 0;
     font-size: 14px;
-    margin-left: 46%;
-    margin-right: 54%;
     position: relative;
     top: -110px;
   }
@@ -251,8 +250,6 @@ main span {
     background-color: transparent;
     border: 0;
     font-size: 14px;
-    margin-left: 46%;
-    margin-right: 54%;
     position: relative;
     top: -110px;
   }
