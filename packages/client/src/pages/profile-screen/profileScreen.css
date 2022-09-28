@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 1440px) {
-  .profile-screen-div {
+  .terminal-div {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@
     top: -100px;
   }
 
-  .profile-screen-div .text-div {
+  .terminal-div .text-div {
     padding: 5px;
     width: 700px;
   }
@@ -76,7 +76,7 @@
 }
 
 @media (max-width: 1280px) {
-  .profile-screen-div {
+  .terminal-div {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -122,7 +122,7 @@
     top: -50px;
   }
 
-  .profile-screen-div .text-div {
+  .terminal-div .text-div {
     padding: 5px;
     width: 700px;
   }
@@ -144,8 +144,7 @@
 }
 
 @media (max-width: 834px) {
-  .profile-screen-div {
-    align-items: center;
+  .terminal-div {
     display: flex;
     flex-direction: column;
   }
@@ -189,7 +188,7 @@
     position: relative;
   }
 
-  .profile-screen-div .text-div {
+  .terminal-div .text-div {
     padding: 5px;
     width: 700px;
   }
@@ -210,74 +209,53 @@
 }
 
 @media (max-width: 768px) {
-  .profile-screen-div {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .profile-div {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-  }
-
-  .profile-div .about-me-div {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    justify-content: center;
-    width: 50%;
-  }
-
-  .about-me-div .welcome-text {
-    color: #8151ff;
-    font-family: Antic;
-    font-size: 28px;
-    left: -20px;
-    width: 150px;
-    position: relative;
+  .terminal-div .text-terminal {
+    color: grey;
+    font-size: 32px;
+    left: 10px;
+    position: absolute;
     top: 10px;
   }
 
-  .about-me-div p {
-    font-size: 26px;
-    left: 55px;
+  .terminal-div .root,
+  .hashtag {
+    color: #458290;
+    font-size: 32px;
     position: relative;
-    width: 300px;
-    top: -30px;
+    top: 0px;
   }
 
-  .profile-image-div .profile-image {
-    border-radius: 100px 0 0 100px;
-    filter: drop-shadow(8px 8px 10px gray);
-    height: 250px;
+  .terminal-div .user {
+    color: #93418a;
+    font-size: 32px;
     position: relative;
+    top: 0px;
   }
 
-  .profile-screen-div .text-div {
-    padding: 5px;
-    width: 700px;
-  }
-
-  .text-div {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  .text-div .about-me-text {
-    color: #959191;
-    font-family: Antic;
-    font-size: 24px;
-    width: 500px;
+  .terminal-div .cursor {
+    animation: animate 1.2s linear infinite;
+    color: grey;
+    font-size: 32px;
     position: relative;
+    top: 0;
+  }
+
+  @keyframes animate {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 0;
+    }
   }
 }
 
 @media (max-width: 414px) {
-  .profile-screen-div {
+  .terminal-div {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -323,7 +301,7 @@
     right: -80px;
   }
 
-  .profile-screen-div .text-div {
+  .terminal-div .text-div {
     padding: 5px;
     width: 700px;
   }
@@ -339,12 +317,13 @@
     font-family: Antic;
     font-size: 24px;
     width: 350px;
-    position: absolute;
+    position: relative;
+    top: -100px;
   }
 }
 
 @media (max-width: 390px) {
-  .profile-screen-div {
+  .terminal-div {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -391,7 +370,7 @@
     right: -100px;
   }
 
-  .profile-screen-div .text-div {
+  .terminal-div .text-div {
     padding: 5px;
     width: 700px;
   }
@@ -413,7 +392,7 @@
 }
 
 @media (max-width: 360px) {
-  .profile-screen-div {
+  .terminal-div {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -457,9 +436,10 @@
     height: 300px;
     position: relative;
     right: -80px;
+    top: -50px;
   }
 
-  .profile-screen-div .text-div {
+  .terminal-div .text-div {
     padding: 5px;
     width: 700px;
   }
@@ -476,5 +456,6 @@
     font-size: 24px;
     width: 300px;
     position: relative;
+    top: -80px;
   }
 }

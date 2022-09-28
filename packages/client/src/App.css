@@ -48,6 +48,8 @@ main {
 main span {
   color: red;
   margin: 5px;
+  font-size: 8px;
+  position: relative;
 }
 
 @media (max-width: 1440px) {
@@ -56,11 +58,11 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -84px;
   }
 
   main .content {
-    border-radius: 20px;
     height: 400px;
     width: 800px;
     position: relative;
@@ -70,12 +72,19 @@ main span {
   .content .theme-button {
     background-color: transparent;
     border: 0;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
-    margin-left: 46%;
-    margin-right: 54%;
+    margin-left: 38%;
     position: relative;
+    width: 200px;
     top: -120px;
+  }
+
+  .theme-button .settings-icon-mode {
+    width: 20px;
+    right: 5px;
+    position: relative;
+    top: 5px;
   }
 }
 
@@ -85,11 +94,11 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -105px;
   }
 
   main .content {
-    border-radius: 20px;
     height: 500px;
     width: 800px;
     position: relative;
@@ -101,8 +110,7 @@ main span {
     border: 0;
     font-size: 18px;
     margin-top: 10px;
-    margin-left: 46%;
-    margin-right: 54%;
+    margin-left: 38%;
     position: relative;
     top: -130px;
   }
@@ -114,11 +122,11 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -105px;
   }
 
   main .content {
-    border-radius: 20px;
     height: 700px;
     width: 800px;
     position: relative;
@@ -130,8 +138,6 @@ main span {
     border: 0;
     font-size: 18px;
     margin-top: 10px;
-    margin-left: 46%;
-    margin-right: 54%;
     position: relative;
     top: -130px;
   }
@@ -143,12 +149,12 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -75px;
   }
 
   main .content {
-    border-radius: 20px;
-    height: 700px;
+    height: 600px;
     width: 750px;
     position: relative;
     top: 40px;
@@ -159,8 +165,6 @@ main span {
     border: 0;
     font-size: 18px;
     margin-top: 10px;
-    margin-left: 46%;
-    margin-right: 54%;
     position: relative;
     top: -130px;
   }
@@ -172,7 +176,8 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -15px;
   }
 
   main .content {
@@ -187,8 +192,7 @@ main span {
     background-color: transparent;
     border: 0;
     font-size: 14px;
-    margin-left: 46%;
-    margin-right: 54%;
+    right: 40px;
     position: relative;
     top: -110px;
   }
@@ -200,7 +204,7 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   main .content {
@@ -215,8 +219,6 @@ main span {
     background-color: transparent;
     border: 0;
     font-size: 14px;
-    margin-left: 46%;
-    margin-right: 54%;
     position: relative;
     top: -110px;
   }
@@ -228,7 +230,8 @@ main span {
   }
 
   main span {
-    font-size: 25px;
+    font-size: 18px;
+    top: -20px;
   }
 
   main .content {
@@ -243,8 +246,6 @@ main span {
     background-color: transparent;
     border: 0;
     font-size: 14px;
-    margin-left: 46%;
-    margin-right: 54%;
     position: relative;
     top: -110px;
   }

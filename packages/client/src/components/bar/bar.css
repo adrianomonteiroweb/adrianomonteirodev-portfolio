@@ -1,0 +1,29 @@
+.bar-div {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.bar-div .cicle {
+  border-radius: 50%;
+  height: 13px;
+  left: 10px;
+  margin: 5px;
+  width: 13px;
+  position: relative;
+}
+
+.cicle.red {
+  background-color: red;
+}
+
+.cicle.yellow {
+  background-color: yellow;
+}
+
+.cicle.green {
+  background-color: green;
+}
