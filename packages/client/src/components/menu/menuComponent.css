@@ -20,7 +20,7 @@
   .menu-div .link {
     font-size: 26px;
     position: relative;
-    top: -130px;
+    top: -100px;
   }
 }
 
@@ -28,7 +28,7 @@
   .menu-div .link {
     font-size: 26px;
     position: relative;
-    top: -140px;
+    top: -100px;
   }
 }
 
@@ -36,7 +36,7 @@
   .menu-div .link {
     font-size: 26px;
     position: relative;
-    top: -130px;
+    top: -180px;
   }
 }
 
@@ -44,15 +44,15 @@
   .menu-div .link {
     font-size: 26px;
     position: relative;
-    top: -130px;
+    top: -120px;
   }
 }
 
 @media (max-width: 414px) {
   .menu-div .link {
-    font-size: 20px;
+    font-size: 26px;
     position: relative;
-    top: -115px;
+    top: -120px;
   }
 }
 
@@ -68,6 +68,6 @@
   .menu-div .link {
     font-size: 20px;
     position: relative;
-    top: -120px;
+    top: -100px;
   }
 }

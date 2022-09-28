@@ -20,7 +20,7 @@
   .menu-languages-button .menu-languages-flag {
     width: 50px;
     position: relative;
-    top: -80px;
+    top: -70px;
   }
 }
 
@@ -28,7 +28,7 @@
   .menu-languages-button .menu-languages-flag {
     width: 50px;
     position: relative;
-    top: -100px;
+    top: -120px;
   }
 }
 
@@ -36,7 +36,7 @@
   .menu-languages-button .menu-languages-flag {
     width: 50px;
     position: relative;
-    top: -70px;
+    top: -260px;
   }
 }
 
@@ -44,15 +44,15 @@
   .menu-languages-button .menu-languages-flag {
     width: 50px;
     position: relative;
-    top: -70px;
+    top: -110px;
   }
 }
 
 @media (max-width: 414px) {
   .menu-languages-button .menu-languages-flag {
-    width: 32px;
+    width: 50px;
     position: relative;
-    top: -10px;
+    top: -100px;
   }
 }
 
@@ -68,6 +68,6 @@
   .menu-languages-button .menu-languages-flag {
     width: 32px;
     position: relative;
-    top: -10px;
+    top: -90px;
   }
 }
