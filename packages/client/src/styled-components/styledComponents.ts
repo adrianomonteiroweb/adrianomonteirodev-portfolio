@@ -21,4 +21,8 @@ export const Content = styled.div`
     color: ${(props) =>
       props.theme.fontColor === '#000000' ? '#ffffff' : '#000000'};
   }
+
+  .bar-div {
+    background-color: ${(props) => props.theme.bar};
+  }
 `;

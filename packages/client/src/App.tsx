@@ -13,6 +13,7 @@ import { Container, Content } from './styled-components/styledComponents';
 import { GlobalStyles } from './styled-components/GlobalStyles';
 import { useTranslation } from 'react-i18next';
 import { lightDarkMode } from './data/images';
+import Bar from './components/bar/Bar';
 
 export default function App() {
   const { t } = useTranslation();
@@ -42,6 +43,7 @@ export default function App() {
                 </button>
               }
               <MenuComponent />
+              <Bar />
               <Routes>
                 <Route path='/' element={<ProfileScreen />} />
               </Routes>

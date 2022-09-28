@@ -63,7 +63,6 @@ main span {
   }
 
   main .content {
-    border-radius: 20px;
     height: 400px;
     width: 800px;
     position: relative;
@@ -100,7 +99,6 @@ main span {
   }
 
   main .content {
-    border-radius: 20px;
     height: 500px;
     width: 800px;
     position: relative;
@@ -129,7 +127,6 @@ main span {
   }
 
   main .content {
-    border-radius: 20px;
     height: 700px;
     width: 800px;
     position: relative;
@@ -157,8 +154,7 @@ main span {
   }
 
   main .content {
-    border-radius: 20px;
-    height: 700px;
+    height: 600px;
     width: 750px;
     position: relative;
     top: 40px;
