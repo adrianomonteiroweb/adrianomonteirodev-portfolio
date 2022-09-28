@@ -54,52 +54,16 @@ main span {
 
 @media (max-width: 1440px) {
   main {
-    height: 600px;
+    height: 591px;
   }
 
   main span {
     font-size: 18px;
-    top: -84px;
+    top: -80px;
   }
 
   main .content {
     height: 400px;
-    width: 800px;
-    position: relative;
-    top: 20px;
-  }
-
-  .content .theme-button {
-    background-color: transparent;
-    border: 0;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-left: 38%;
-    position: relative;
-    width: 200px;
-    top: -120px;
-  }
-
-  .theme-button .settings-icon-mode {
-    width: 20px;
-    right: 5px;
-    position: relative;
-    top: 5px;
-  }
-}
-
-@media (max-width: 1280px) {
-  main {
-    height: 750px;
-  }
-
-  main span {
-    font-size: 18px;
-    top: -105px;
-  }
-
-  main .content {
-    height: 500px;
     width: 800px;
     position: relative;
     top: 10px;
@@ -109,28 +73,28 @@ main span {
     background-color: transparent;
     border: 0;
     font-size: 18px;
+    left: 40%;
     margin-top: 10px;
-    margin-left: 38%;
     position: relative;
-    top: -130px;
+    top: -90px;
   }
 }
 
-@media (max-width: 834px) {
+@media (max-width: 1280px) {
   main {
-    height: 1100px;
+    height: 800px;
   }
 
   main span {
     font-size: 18px;
-    top: -105px;
+    top: -130px;
   }
 
   main .content {
-    height: 700px;
+    height: 500px;
     width: 800px;
     position: relative;
-    top: 40px;
+    top: -50px;
   }
 
   .content .theme-button {
@@ -139,25 +103,52 @@ main span {
     font-size: 18px;
     margin-top: 10px;
     position: relative;
-    top: -130px;
+    top: -90px;
+  }
+}
+
+@media (max-width: 834px) {
+  main {
+    height: 1194px;
+  }
+
+  main span {
+    font-size: 18px;
+    top: -270px;
+  }
+
+  main .content {
+    height: 600px;
+    width: 800px;
+    position: relative;
+    top: -100px;
+  }
+
+  .content .theme-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+    margin-top: 10px;
+    position: relative;
+    top: -180px;
   }
 }
 
 @media (max-width: 768px) {
   main {
-    height: 900px;
+    height: 1024px;
   }
 
   main span {
     font-size: 18px;
-    top: -75px;
+    top: -120px;
   }
 
   main .content {
     height: 600px;
     width: 750px;
     position: relative;
-    top: 40px;
+    top: 0px;
   }
 
   .content .theme-button {
@@ -166,35 +157,34 @@ main span {
     font-size: 18px;
     margin-top: 10px;
     position: relative;
-    top: -130px;
+    top: -120px;
   }
 }
 
 @media (max-width: 414px) {
   main {
-    height: 700px;
+    height: 683px;
   }
 
   main span {
     font-size: 18px;
-    top: -15px;
+    top: -120px;
   }
 
   main .content {
-    border-radius: 20px;
-    height: 700px;
-    width: 414px;
+    height: 350px;
+    width: 380px;
     position: relative;
-    top: 90px;
+    top: 10px;
   }
 
   .content .theme-button {
     background-color: transparent;
     border: 0;
-    font-size: 14px;
-    right: 40px;
+    font-size: 18px;
+    left: 25%;
     position: relative;
-    top: -110px;
+    top: -120px;
   }
 }
 
@@ -208,7 +198,6 @@ main span {
   }
 
   main .content {
-    border-radius: 20px;
     height: 700px;
     width: 390px;
     position: relative;
@@ -226,20 +215,19 @@ main span {
 
 @media (max-width: 360px) {
   main {
-    height: 700px;
+    height: 672px;
   }
 
   main span {
     font-size: 18px;
-    top: -20px;
+    top: -100px;
   }
 
   main .content {
-    border-radius: 20px;
-    height: 700px;
-    width: 358px;
+    height: 300px;
+    width: 300px;
     position: relative;
-    top: 90px;
+    top: 0px;
   }
 
   .content .theme-button {
@@ -247,6 +235,6 @@ main span {
     border: 0;
     font-size: 14px;
     position: relative;
-    top: -110px;
+    top: -100px;
   }
 }
