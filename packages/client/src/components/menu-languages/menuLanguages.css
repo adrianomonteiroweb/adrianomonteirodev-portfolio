@@ -18,9 +18,14 @@
 
 @media (max-width: 1440px) {
   .menu-languages-button .menu-languages-flag {
+    filter: grayscale(100%);
     width: 50px;
     position: relative;
     top: -70px;
+  }
+
+  .menu-languages-flag.active {
+    filter: none;
   }
 }
 
